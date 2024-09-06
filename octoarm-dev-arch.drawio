@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="OHkd2X7giF_ZFyd5OgSc">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1jvyHlAq_4KJQ6lWiULi-2" target="1jvyHlAq_4KJQ6lWiULi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-2" value="AWS-MQTT Broker" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="61" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="282" width="231" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-4" value="ARM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="282" width="231" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-6" value="ARM-Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125.5" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-7" value="Local MQTT Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="282" width="123" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1jvyHlAq_4KJQ6lWiULi-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-8" value="Agora" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="143" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-9" value="Plugin-Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="394" width="231" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-10" value="Algo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="362" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-12" value="Product-A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="421" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-13" value="Prod-B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="421" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-14" value="Prod-X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="421" width="84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-18" value="MQTT Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="332" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1jvyHlAq_4KJQ6lWiULi-5" target="1jvyHlAq_4KJQ6lWiULi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312" y="394" />
+              <mxPoint x="312" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1jvyHlAq_4KJQ6lWiULi-5" target="1jvyHlAq_4KJQ6lWiULi-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="321" y="394" />
+              <mxPoint x="321" y="187" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jvyHlAq_4KJQ6lWiULi-28" value="USB Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="473" width="149" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
